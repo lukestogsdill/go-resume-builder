@@ -1,0 +1,32 @@
+# Resume Style Configuration
+# Simple, clean configuration for customizing your resume appearance
+
+colors:
+  primary: "#0056ac"       # Main header color
+  secondary: "#34495E"     # Secondary elements  
+  text: "#2C3E50"         # Body text color
+  background: "#0056ac"    # Page background
+  accent: "#3498DB"       # Accent elements
+
+fonts:
+  header: ["Arial", "Arial", "Arial"]  # Font preference list for headers
+  body: ["Dejavu Sans", "Dejavu Sans", "Dejavu Sans"]    # Font preference list for body text  
+  fallback: "Arial"                        # Fallback font if none available
+
+spacing:
+  section_gap: 1.0        # Space between sections
+  item_gap: 1.0          # Space between items within sections  
+  line_height: 1.0       # Height of text lines
+  bullet_indent: 1.0     # Indentation for bullet points
+
+layout:
+  margins:
+    top: 1.0
+    bottom: 1.0
+    left: 1.0
+    right: 1.0
+  page_size: "A4"         # Page size (A4, Letter, etc.)
+  header_size: 1.0       # Font size for main header
+  body_size: 1.0          # Font size for body text
+  single_page: true       # Force content to fit on one page
+  compact_mode: true      # Use compact spacing

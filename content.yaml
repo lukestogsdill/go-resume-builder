@@ -1,0 +1,85 @@
+personal_info:
+  name: "Jane Smith"
+  email: "jane.smith@example.com"
+  phone: "(555) 987-6543"
+  address: "456 Oak Ave, Another City, State 54321"
+  website: "https://janesmith.dev"
+  github: "https://github.com/janesmith"
+  linkedin: "https://linkedin.com/in/janesmith"
+  icons:
+    email: "envelope"
+    phone: "mobile"
+    address: "house"
+    website: "globe"
+    github: "github"
+    linkedin: "linkedin"
+
+sections:
+  - type: "summary"
+    title: "SUMMARY"
+    order: 1
+    enabled: true
+    data:
+      content: "Full-stack developer with expertise in modern web technologies and cloud infrastructure. Strong background in agile development and team collaboration."
+
+  - type: "experience"
+    title: "EXPERIENCE"
+    order: 2
+    enabled: true
+    data:
+      items:
+        - title: "Lead Developer"
+          company: "Innovation Labs"
+          location: "Seattle, WA"
+          start_date: "Jun 2021"
+          end_date: "Present"
+          description:
+            - "Architected and implemented cloud-native applications using microservices"
+            - "Led cross-functional team of 5 developers and designers"
+            - "Improved system reliability from 95% to 99.9% uptime"
+        
+        - title: "Frontend Developer"
+          company: "WebSolutions Inc"
+          location: "Portland, OR"
+          start_date: "Aug 2019"
+          end_date: "May 2021"
+          description:
+            - "Developed responsive web applications using Vue.js and TypeScript"
+            - "Collaborated with UX team to implement pixel-perfect designs"
+            - "Optimized application performance resulting in 50% faster load times"
+
+  - type: "education"
+    title: "EDUCATION"
+    order: 3
+    enabled: true
+    data:
+      items:
+        - degree: "Master of Science in Software Engineering"
+          institution: "Tech University"
+          location: "Seattle, WA"
+          start_date: "Sep 2017"
+          end_date: "Jun 2019"
+
+  - type: "skills"
+    title: "SKILLS"
+    order: 4
+    enabled: true
+    data:
+      items:
+        - "JavaScript"
+        - "TypeScript"
+        - "Vue.js"
+        - "React"
+        - "Node.js"
+        - "Python"
+        - "Go"
+        - "Docker"
+        - "AWS"
+        - "PostgreSQL"
+
+  - type: "text"
+    title: "CERTIFICATIONS"
+    order: 5
+    enabled: true
+    data:
+      content: "AWS Solutions Architect Professional • Google Cloud Professional Cloud Architect • Certified Kubernetes Administrator (CKA)"
