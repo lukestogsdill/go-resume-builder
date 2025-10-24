@@ -1,0 +1,107 @@
+{
+  "personal": {
+    "name": "Luke Stogsdill",
+    "email": "lukestogsdill@gmail.com",
+    "phone": "(832) 392-2613",
+    "address": "Houston, TX 77064"
+  },
+  "contact_fields": [
+    {
+      "field": "address",
+      "content": "{{.Personal.Address}}",
+      "icon": "address"
+    },
+    {
+      "field": "email",
+      "content": "{{.Personal.Email}}",
+      "icon": "email"
+    },
+    {
+      "field": "phone", 
+      "content": "{{.Personal.Phone}}",
+      "icon": "phone"
+    },
+    {
+      "field": "website",
+      "content": "Portfolio",
+      "icon": "website",
+      "link": "https://lustogs.com",
+      "type": "link"
+    },
+    {
+      "field": "github",
+      "content": "lukestogsdill",
+      "icon": "github",
+      "link": "https://github.com/lukestogsdill",
+      "type": "link"
+    },
+    {
+      "field": "linkedin",
+      "content": "luke-stogsdill",
+      "icon": "linkedin",
+      "link": "https://linkedin.com/in/luke-stogsdill",
+      "type": "link"
+    }
+  ],
+  "sections": {
+    "summary": {
+      "content": "Full-stack developer with expertise in modern web technologies and cloud infrastructure. Strong background in agile development and team collaboration."
+    },
+    "experience": {
+      "items": [
+        {
+          "title": "Lead Developer",
+          "company": "Innovation Labs",
+          "location": "Seattle, WA",
+          "start_date": "Jun 2021",
+          "end_date": "Present",
+          "description": [
+            "Architected and implemented cloud-native applications using microservices",
+            "Led cross-functional team of 5 developers and designers",
+            "Improved system reliability from 95% to 99.9% uptime"
+          ]
+        },
+        {
+          "title": "Frontend Developer",
+          "company": "WebSolutions Inc",
+          "location": "Portland, OR", 
+          "start_date": "Aug 2019",
+          "end_date": "May 2021",
+          "description": [
+            "Developed responsive web applications using Vue.js and TypeScript",
+            "Collaborated with UX team to implement pixel-perfect designs",
+            "Optimized application performance resulting in 50% faster load times"
+          ]
+        }
+      ]
+    },
+    "education": {
+      "items": [
+        {
+          "degree": "Master of Science in Software Engineering",
+          "institution": "Tech University",
+          "location": "Seattle, WA",
+          "start_date": "Sep 2017",
+          "end_date": "Jun 2019"
+        }
+      ]
+    },
+    "skills": [
+      "JavaScript",
+      "TypeScript", 
+      "Vue.js",
+      "React",
+      "Node.js",
+      "Python",
+      "Go",
+      "Docker",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "certifications": [
+      "AWS Solutions Architect Professional",
+      "Google Cloud Professional Cloud Architect",
+      "Certified Kubernetes Administrator (CKA)"
+    ]
+  }
+}

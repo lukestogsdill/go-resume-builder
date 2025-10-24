@@ -1,0 +1,146 @@
+{
+  "pdf": {
+    "page_size": "A4",
+    "margins": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    },
+    "background_color": "#FFFFFF"
+  },
+  "spacing": {
+    "tiny": 5,
+    "small": 5,
+    "medium": 8,
+    "large": 12,
+    "huge": 20,
+    "section_gap": 15
+  },
+  "fonts": {
+    "header": {
+      "family": "Helvetica",
+      "size": 24,
+      "style": "Bold",
+      "color": "primary"
+    },
+    "section_title": {
+      "family": "Helvetica", 
+      "size": 14,
+      "style": "Bold",
+      "color": "secondary"
+    },
+    "body": {
+      "family": "Helvetica",
+      "size": 11,
+      "style": "Normal",
+      "color": "text"
+    },
+    "small": {
+      "family": "Helvetica",
+      "size": 9,
+      "style": "Normal", 
+      "color": "text"
+    },
+    "emphasis": {
+      "family": "Helvetica",
+      "size": 11,
+      "style": "Bold",
+      "color": "text"
+    }
+  },
+  "colors": {
+    "primary": "#ff0000",
+    "secondary": "#00ff00", 
+    "text": "#000000",
+    "link": "#0000FF",
+    "accent": "#3498DB",
+    "background": "#FFFFFF"
+  },
+  "icons": {
+    "svg_paths": [
+      "fontawesome-free-6.4.0-desktop/svgs/solid",
+      "fontawesome-free-6.4.0-desktop/svgs/brands"
+    ],
+    "output_dir": "icons",
+    "default_size": 32,
+    "color": "primary",
+    "mappings": {
+      "email": "envelope",
+      "phone": "phone", 
+      "website": "arrow-up-right-from-square",
+      "globe": "arrow-up-right-from-square",
+      "github": "github",
+      "linkedin": "linkedin",
+      "address": "house",
+      "experience": "building",
+      "education": "graduation-cap",
+      "skills": "box",
+      "certificate": "certificate"
+    }
+  },
+  "section_templates": {
+    "header": {
+      "spacing": "tiny",
+      "font": "header"
+    },
+    "contact": {
+      "spacing": "tiny", 
+      "font": "small",
+      "icon_size": 8
+    },
+    "entry_list": {
+      "spacing": "tiny",
+      "font": "body",
+      "title_spacing": "tiny",
+      "item_spacing": "tiny",
+      "icon_size": 8
+    },
+    "simple_list": {
+      "spacing": "tiny",
+      "font": "body",
+      "title_spacing": "tiny",
+      "icon_size": 8
+    }
+  },
+  "sections": {
+    "header": {
+      "template": "header",
+      "enabled": true
+    },
+    "contact": {
+      "template": "contact", 
+      "enabled": true
+    },
+    "summary": {
+      "template": "simple_list",
+      "title": "SUMMARY",
+      "icon": null,
+      "enabled": true
+    },
+    "experience": {
+      "template": "entry_list",
+      "title": "EXPERIENCE", 
+      "icon": "experience",
+      "enabled": true
+    },
+    "education": {
+      "template": "entry_list",
+      "title": "EDUCATION",
+      "icon": "education", 
+      "enabled": true
+    },
+    "skills": {
+      "template": "simple_list",
+      "title": "SKILLS",
+      "icon": "skills",
+      "enabled": true
+    },
+    "certifications": {
+      "template": "simple_list", 
+      "title": "CERTIFICATIONS",
+      "icon": "certificate",
+      "enabled": true
+    }
+  }
+}
